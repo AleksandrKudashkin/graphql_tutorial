@@ -127,6 +127,10 @@ GEM
     sdoc (0.4.2)
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
+    search_object (1.2.0)
+    search_object_graphql (0.1)
+      graphql (~> 1.5)
+      search_object (~> 1.2)
     spring (2.0.2)
       activesupport (>= 4.2)
     sprockets (3.7.1)
@@ -167,6 +171,8 @@ DEPENDENCIES
   rails (= 4.2.8)
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
+  search_object
+  search_object_graphql
   spring
   sqlite3
   turbolinks
